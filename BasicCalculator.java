@@ -8,7 +8,8 @@ public class BasicCalculator {
         int b = sc.nextInt();
         System.out.print("Your Operator: ");
         String operator = sc.next();
-        //ik i can do this in switch case but i want to do it in if else statement :)
+
+    //ik i can do this in switch case but i want to do it in if else statement :)
         if(operator.equals("+")){
             System.out.println("The sum is: " + (a + b));
         } else if (operator.equals("-")){
